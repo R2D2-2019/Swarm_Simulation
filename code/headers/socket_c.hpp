@@ -3,6 +3,8 @@
 #include <cstddef>
 #include <cstdint>
 
+#include "frame_s.hpp"
+
 namespace r2d2::swarm_simulation {
     class socket_c {
     public:
@@ -16,6 +18,6 @@ namespace r2d2::swarm_simulation {
         }
 
         virtual void send_frame(const uint8_t data[], size_t size) = 0;
-        virtual void listen() = 0;
+        virtual frame_s listen() = 0;
     };
 }
