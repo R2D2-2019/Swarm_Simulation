@@ -14,7 +14,7 @@ namespace r2d2::swarm_simulation {
         }
         template<typename FrameType>
         void send_frame(const FrameType& frame) {
-            this->send_frame(reinterpret_cast<uint8[]>(frame), sizeof())
+            this->send_frame(reinterpret_cast<const uint8[]>(&frame), sizeof(FrameType));
         }
 
         virtual void send_frame(const uint8_t data[], size_t size) = 0;
