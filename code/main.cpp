@@ -1,5 +1,5 @@
 #include <iostream>
 
-int main( void ){	
-  std::cout << "this is working now\n" ;
+int main( void )
+	std::cout << "this is working now\n" ;
 }
