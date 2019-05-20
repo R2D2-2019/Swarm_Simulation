@@ -1,9 +1,11 @@
 #include <iostream>
-#include <robo_cop.hpp>
-//#include <state_storage_c.hpp>
+#include <state_storage_c.hpp>
+#include <robo_cop_c.hpp>
 
 
 int main( void ){
-	robo_cop.move(5);
+	using namespace r2d2;
+	r2d2::robo_cop::robo_cop_c roboCop(4);
+	roboCop.move(5);
 }
 
