@@ -1,6 +1,7 @@
 #include <iostream>
+#include <robo_cop.hpp>
 
 int main( void ){
-	std::cout << "this is working now\n" ;
+	robo_cop.move(5);
 }
 
