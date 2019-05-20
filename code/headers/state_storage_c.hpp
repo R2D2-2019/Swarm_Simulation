@@ -3,8 +3,9 @@
 //
 #ifndef R2D2_BUILD_STATE_STORAGE_HPP
 #define R2D2_BUILD_STATE_STORAGE_C_HPP
-
-#include <state_storage_c.hpp>
+#include <iostream>
+#include <string>
+#include <map>
 
 
 

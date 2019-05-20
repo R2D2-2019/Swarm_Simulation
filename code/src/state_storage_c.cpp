@@ -1,6 +1,5 @@
 //
 // Created by thomas on 20-5-2019.
 //
-#include <iostream>
-#include <string>
-#include <map>
+
+#include "state_storage_c.hpp"
