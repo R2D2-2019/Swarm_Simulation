@@ -1,8 +1,0 @@
-//
-// Created by thoma on 20-5-2019.
-//
-
-#ifndef R2D2_BUILD_STATE_STORAGE_HPP
-#define R2D2_BUILD_STATE_STORAGE_HPP
-
-#endif //R2D2_BUILD_STATE_STORAGE_HPP
